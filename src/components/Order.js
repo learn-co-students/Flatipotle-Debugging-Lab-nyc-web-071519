@@ -7,9 +7,9 @@ class Order extends Component {
   }
 
   handleClick = () => {
-    this.setState( prevState => {
+    this.setState( previousState => {
       return {
-        isClicked: !prevState.isClicked
+        isClicked: !previousState.isClicked
       }
     })
   }
